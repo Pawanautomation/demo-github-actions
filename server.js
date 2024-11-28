@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/hello', (req, res) => {
-  res.json({ message: 'Hello World' });
+  res.json({ message: 'Hello GitHub Actions!' });
 });
 
 if (require.main === module) {
